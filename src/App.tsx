@@ -1,32 +1,50 @@
-import React, { useState } from 'react';
-import reactLogo from './assets/react.svg';
+import React from 'react';
+import githubLogo from './assets/github-logo.png';
+import gitlabLogo from './assets/gitlab-logo.png';
+import linkedinLogo from './assets/linkedin-logo.png';
+import mailIcon from './assets/mail-icon.png';
+
 import './App.css';
 
 const App = () => {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <div className="card--text">
+          <div className="title">
+            <h1>
+              Hey 👋 ! <br /> I am Knowbase
+            </h1>
+            <p>a French computer science student</p>
+          </div>
+          <div className="presentation">
+            <p>I am looking for a final year internship of 6 months </p>
+
+            <p>
+              If you want to know more about me check the links to see :
+              <ul>
+                <li>my public projects</li>
+                <li>my experience</li>
+                <li>or to contact me</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div className="icons">
+          <a href="https://github.com/knowbased" className="icon">
+            <img src={githubLogo} alt="github logo" />
+          </a>
+          <a href="" className="icon">
+            <img src={gitlabLogo} alt="react logo" />
+          </a>
+          <a href="" className="icon">
+            <img src={linkedinLogo} alt="react logo" />
+          </a>
+          <a href="" className="icon">
+            <img src={mailIcon} alt="react logo" />
+          </a>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </div>
   );
 };
