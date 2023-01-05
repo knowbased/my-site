@@ -50,7 +50,11 @@ p {
   padding: 1rem;
 }
 
-.presentation > p {
+.card--text *::selection {
+  background-color: #4e0b06;
+}
+
+.presentation > * {
   font-size: 1.25rem;
   margin: 1rem 0;
 }
@@ -79,6 +83,15 @@ p {
   cursor: pointer;
 }
 
+.icon:hover {
+  filter: drop-shadow(0 0 1em #7c7c7c);
+}
+
 .icon img {
   width: 100px;
+  transition: transform ease-in-out 0.3s;
+}
+
+.icon img:hover {
+  transform: perspective(4cm) rotateX(-5deg);
 }

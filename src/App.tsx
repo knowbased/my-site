@@ -20,14 +20,14 @@ const App = () => {
           <div className="presentation">
             <p>I am looking for a final year internship of 6 months </p>
 
-            <p>
+            <div>
               If you want to know more about me check the links to see :
               <ul>
                 <li>my public projects</li>
                 <li>my experience</li>
                 <li>or to contact me</li>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
         <div className="icons">
