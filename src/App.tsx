@@ -1,10 +1,7 @@
 import React from 'react';
-import githubLogo from './assets/github-logo.png';
-import gitlabLogo from './assets/gitlab-logo.png';
-import linkedinLogo from './assets/linkedin-logo.png';
-import mailIcon from './assets/mail-icon.png';
 
 import './App.css';
+import LinkContainer from './components/LinkContainer';
 
 const App = () => {
   return (
@@ -30,20 +27,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="icons">
-          <a href="https://github.com/knowbased" className="icon">
-            <img src={githubLogo} alt="github logo" />
-          </a>
-          <a href="" className="icon">
-            <img src={gitlabLogo} alt="react logo" />
-          </a>
-          <a href="" className="icon">
-            <img src={linkedinLogo} alt="react logo" />
-          </a>
-          <a href="" className="icon">
-            <img src={mailIcon} alt="react logo" />
-          </a>
-        </div>
+        <LinkContainer />
       </div>
     </div>
   );
