@@ -6,22 +6,26 @@
 
   padding: 3rem 2rem;
 
-  background-image: linear-gradient(to bottom right, #4e0b06 40%, #a13e00);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--red) 40%,
+    var(--orange)
+  );
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  color: #7c7c7c;
+  color: var(--secondary);
 }
 
 h1 {
-  font-size: 4rem;
-  color: #f7f7ff;
+  font-size: var(--font-size-xl);
+  color: var(--white);
 }
 
 p {
-  font-size: 1rem;
+  font-size: var(--font-size-sm);
 }
 
 .card {
@@ -30,7 +34,7 @@ p {
 
   padding: 4rem 2rem;
 
-  background-color: #131111;
+  background-color: var(--primary);
 
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -51,10 +55,10 @@ p {
 }
 
 .card--text *::selection {
-  background-color: #4e0b06;
+  background-color: var(--red);
 }
 
 .presentation > * {
-  font-size: 1.25rem;
+  font-size: var(--font-size-md);
   margin: 1rem 0;
 }
