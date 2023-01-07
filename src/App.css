@@ -34,6 +34,8 @@ p {
 
   padding: 4rem 2rem;
 
+  animation: fadeIn ease-in 3s;
+
   background-color: var(--primary);
 
   border-radius: 5px;
@@ -83,5 +85,14 @@ p {
   100% {
     transform: rotate(0deg);
     transform-origin: 50% 75%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
