@@ -10,7 +10,8 @@ const App = () => {
         <div className="card--text">
           <div className="title">
             <h1>
-              Hey 👋 ! <br /> I am Knowbase
+              Hey <span className="title--hand">👋&nbsp;</span> ! <br /> I am
+              Knowbase
             </h1>
             <p>a French computer science student</p>
           </div>

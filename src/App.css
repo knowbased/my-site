@@ -62,3 +62,26 @@ p {
   font-size: var(--font-size-md);
   margin: 1rem 0;
 }
+.title--hand {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title--hand:hover {
+  animation: rotation ease-in-out 1s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: 50% 75%;
+  }
+  50% {
+    transform: rotate(45deg);
+    transform-origin: 50% 75%;
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 75%;
+  }
+}
