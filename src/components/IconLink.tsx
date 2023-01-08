@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './IconLink.css';
+import './IconLink.scss';
 
 type IconLinkProp = {
   image: string;

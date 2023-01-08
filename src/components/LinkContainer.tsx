@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './LinkContainer.css';
+import './LinkContainer.scss';
 
 import githubLogo from '../assets/github-logo.png';
 import gitlabLogo from '../assets/gitlab-logo.png';

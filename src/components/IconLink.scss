@@ -1,0 +1,26 @@
+.iconLink {
+  width: 150px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f7f7ff;
+  border-radius: 25%;
+
+  cursor: pointer;
+
+  &:hover {
+    filter: drop-shadow(0 0 1em #7c7c7c);
+  }
+
+  img {
+    width: 100px;
+    transition: transform ease-in-out 0.3s;
+
+    &:hover {
+      transform: perspective(4cm) rotateX(-5deg);
+    }
+  }
+}
