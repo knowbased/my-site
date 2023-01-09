@@ -25,9 +25,9 @@ p {
 
 .card {
   width: 80%;
-  height: 80%;
 
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
+  margin: 2rem 1rem;
 
   animation: fadeIn ease-in 3s;
 
@@ -49,16 +49,22 @@ p {
     display: flex;
     flex-direction: column;
 
-    gap: 40px;
+    gap: 1rem;
 
     padding: 1rem;
 
-    .title--hand {
-      display: inline-block;
-      cursor: pointer;
+    .title {
+      > * {
+        margin: 1rem 0;
+      }
 
-      &:hover {
-        animation: rotation ease-in-out 1s;
+      .title--hand {
+        display: inline-block;
+        cursor: pointer;
+
+        &:hover {
+          animation: rotation ease-in-out 1s;
+        }
       }
     }
 
@@ -68,7 +74,19 @@ p {
 
     .presentation > * {
       font-size: var(--font-size-md);
-      margin: 1rem 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: var.$screen-size-sm) {
+    width: 100%;
+
+    .title {
+      text-align: center;
+    }
+
+    ul {
+      padding-left: 1rem;
     }
   }
 }

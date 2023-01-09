@@ -12,9 +12,9 @@ $screen-size-sm: 640px;
 
   /* Font */
 
-  --font-size-xl: 4rem;
-  --font-size-md: 1.25rem;
-  --font-size-sm: 1rem;
+  --font-size-xl: clamp(2rem, 10.7vw - 2.7rem, 4rem);
+  --font-size-md: clamp(1.25rem, 1.3vw + 0.7rem, 1.5rem);
+  --font-size-sm: clamp(1.1rem, 0.8vw + 0.8rem, 1.25rem);
 
   /* Screen Size   */
 }
