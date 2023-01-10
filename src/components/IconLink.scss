@@ -17,10 +17,6 @@
 
   img {
     width: 100px;
-    transition: transform ease-in-out 0.3s;
-
-    &:hover {
-      transform: perspective(4cm) rotateX(-5deg);
-    }
+    transition: transform ease;
   }
 }
