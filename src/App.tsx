@@ -1,13 +1,14 @@
 import React from 'react';
 
 import './App.scss';
+import Card from './components/Card';
 import LinkContainer from './components/LinkContainer';
 
 const App = () => {
   return (
     <div className="App">
-      <div className="card">
-        <div className="card--text">
+      <Card>
+        <div className="textContainer">
           <div className="title">
             <h1>
               Hey <span className="title--hand">👋&nbsp;</span> ! <br /> I am
@@ -29,7 +30,7 @@ const App = () => {
           </div>
         </div>
         <LinkContainer />
-      </div>
+      </Card>
     </div>
   );
 };

@@ -23,59 +23,36 @@ p {
   font-size: var(--font-size-sm);
 }
 
-.card {
-  width: 80%;
-
-  padding: 2rem 2rem;
-  margin: 2rem 1rem;
-
-  animation: fadeIn ease-in 3s;
-
-  background-color: var(--primary);
-
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+.textContainer {
   display: flex;
-  flex-direction: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
 
-  gap: 2rem;
+  gap: 1rem;
 
-  .card--text {
-    display: flex;
-    flex-direction: column;
+  padding: 1rem;
 
-    gap: 1rem;
+  .title {
+    > * {
+      margin: 1rem 0;
+    }
 
-    padding: 1rem;
+    .title--hand {
+      display: inline-block;
+      cursor: pointer;
 
-    .title {
-      > * {
-        margin: 1rem 0;
-      }
-
-      .title--hand {
-        display: inline-block;
-        cursor: pointer;
-
-        &:hover {
-          animation: rotation ease-in-out 1s;
-        }
+      &:hover {
+        animation: rotation ease-in-out 1s;
       }
     }
+  }
 
-    *::selection {
-      background-color: var(--red);
-    }
+  *::selection {
+    background-color: var(--red);
+  }
 
-    .presentation > * {
-      font-size: var(--font-size-md);
-      margin-bottom: 1rem;
-    }
+  .presentation > * {
+    font-size: var(--font-size-md);
+    margin-bottom: 1rem;
   }
 
   @media (max-width: var.$screen-size-sm) {
