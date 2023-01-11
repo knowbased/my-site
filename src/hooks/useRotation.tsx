@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useHoverDirty, useMouseHovered } from 'react-use';
 
-const useRotation = (ref: React.MutableRefObject<null>) => {
+const useRotation = (
+  ref: React.MutableRefObject<null>
+): { rotationX: number; rotationY: number } => {
   const [rotationX, setRotationX] = useState(0);
   const [rotationY, setRotationY] = useState(0);
 
