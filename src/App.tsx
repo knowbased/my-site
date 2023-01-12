@@ -12,21 +12,23 @@ const App = () => {
           <div className="title">
             <h1>
               Hey <span className="title--hand">👋&nbsp;</span> ! <br /> I am
-              Knowbase
+              Kilian
             </h1>
             <p>a French computer science student</p>
           </div>
           <div className="presentation">
             <p>I am looking for a final year internship of 6 months </p>
 
-            <div>
-              If you want to know more about me check the links to see&nbsp;:
-              <ul>
-                <li>my public projects</li>
-                <li>my experience</li>
-                <li>or to contact me</li>
-              </ul>
-            </div>
+            <p>
+              See my public projects, experiences or contact me <br /> with the
+              links on the right
+            </p>
+
+            <p>
+              This site is made with React and Vite <br />
+              Check the source code{' '}
+              <a href="https://github.com/knowbased/my-site">here</a> !
+            </p>
           </div>
         </div>
         <LinkContainer />
