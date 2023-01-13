@@ -11,8 +11,7 @@ const App = () => {
         <div className="textContainer">
           <div className="title">
             <h1>
-              Hey <span className="title--hand">👋&nbsp;</span> ! <br /> I am
-              Kilian
+              Hey <span className="title--hand">👋&nbsp;</span> ! <br /> I am Kilian
             </h1>
             <p>a French computer science student</p>
           </div>
@@ -20,14 +19,13 @@ const App = () => {
             <p>I am looking for a final year internship of 6 months </p>
 
             <p>
-              See my public projects, experiences or contact me <br /> with the
-              links on the right
+              See my public projects, experiences or contact me <br /> with the links on the right
             </p>
 
             <p>
               This site is made with React and Vite <br />
-              Check the source code{' '}
-              <a href="https://github.com/knowbased/my-site">here</a> !
+              You can check the&nbsp;
+              <a href="https://github.com/knowbased/my-site">source code</a> !
             </p>
           </div>
         </div>
