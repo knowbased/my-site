@@ -1,3 +1,5 @@
+@use './styles/animations.scss';
+
 .App {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
 
@@ -68,29 +70,5 @@ a {
     ul {
       padding-left: 1rem;
     }
-  }
-}
-
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-    transform-origin: 50% 75%;
-  }
-  50% {
-    transform: rotate(45deg);
-    transform-origin: 50% 75%;
-  }
-  100% {
-    transform: rotate(0deg);
-    transform-origin: 50% 75%;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
