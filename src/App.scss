@@ -25,7 +25,7 @@ p {
 }
 
 a {
-  color: var(--red);
+  color: var(--white);
 }
 
 .textContainer {
@@ -46,7 +46,7 @@ a {
       cursor: pointer;
 
       &:hover {
-        animation: rotation ease-in-out 1s;
+        animation: rotation ease-in-out 1s infinite;
       }
     }
   }

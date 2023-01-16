@@ -11,7 +11,7 @@ const App = () => {
         <div className="textContainer">
           <div className="title">
             <h1>
-              Hey <span className="title--hand">👋&nbsp;</span> ! <br /> I am Kilian
+              Hey <span className="title--hand">👋&nbsp;</span> <br /> I am Kilian
             </h1>
             <p>a French computer science student</p>
           </div>
