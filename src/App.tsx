@@ -19,11 +19,11 @@ const App = () => {
             <p>I am looking for a final year internship of 6 months </p>
 
             <p>
-              See my public projects, experiences or contact me <br /> with the links on the right
+              See my public projects, experiences or contact me <br /> using the links on the right
             </p>
 
             <p>
-              This site is made with React and Vite <br />
+              This site is made with React and TS <br />
               You can check the&nbsp;
               <a href="https://github.com/knowbased/my-site">source code</a> !
             </p>
