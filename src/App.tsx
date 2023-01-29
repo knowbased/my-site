@@ -19,7 +19,7 @@ const App = () => {
             <p>I am looking for a final year internship of 6 months </p>
 
             <p>
-              See my public projects, experiences or contact me <br /> using the links on the right
+              See my public projects, experiences or contact me <br /> using the links
             </p>
 
             <p>
