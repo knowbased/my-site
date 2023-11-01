@@ -2,7 +2,7 @@
 
 Source code of my personal website
 
-**Live Link**: https://knowbase-site.vercel.app/
+**Live Link**: [https://kilian-b.vercel.app/](https://kilian-b.vercel.app/)
 
 ## Technologies Used
 
