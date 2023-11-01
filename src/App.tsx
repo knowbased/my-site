@@ -16,16 +16,13 @@ const App = () => {
             <p>a French computer science student</p>
           </div>
           <div className="presentation">
-            <p>I am looking for a final year internship of 6 months </p>
-
             <p>
-              See my public projects, experiences or contact me <br /> using the links
+              Check out my public projects and experiences <br /> or contact me using the following links
             </p>
 
             <p>
-              This site is made with React and TS <br />
-              You can check the&nbsp;
-              <a href="https://github.com/knowbased/my-site">source code</a> !
+              This site is built with React and TypeScript. <br />
+              You can check the source code <a href="https://github.com/knowbased/my-site">here</a> !
             </p>
           </div>
         </div>
