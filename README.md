@@ -1,8 +1,8 @@
 # My-site
 
-Source code of my personal website
+Source code of my website
 
-**Live Link**: [https://kilian-b.vercel.app/](https://kilian-b.vercel.app/)
+**Live Link**: [https://kilian-b-linktree.vercel.app/](https://kilian-b-linktree.vercel.app/)
 
 ## Technologies Used
 
