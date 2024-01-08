@@ -2,7 +2,7 @@
 
 Source code of my website
 
-**Live Link**: [https://kilian-b-linktree.vercel.app/](https://kilian-b-linktree.vercel.app/)
+**Live Link**: [https://kilian-b-old-site.vercel.app/](https://kilian-b-old-site.vercel.app/)
 
 ## Technologies Used
 
